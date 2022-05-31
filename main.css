@@ -1,7 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600;700&family=Tiro+Kannada&display=swap');
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Tiro+Kannada"; 
+}
+body{
+    line-height: 1.4;
+    color: #aaaf;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(rgb(rgb(68, 68, 68)));
+    background-image: url(images/coffe2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1.2rem;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-family: "Akshar";
+}
+.navbar-nav{
+    padding: 0.5rem 0 0.2rem 0;
+}
+.navbar-nav a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Akshar";
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.4s ease;
+}
+.navbar-nav a:hover{  
+    opacity: 0.4;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+.banner-title{
+    font-size: 4rem;
+    font-family: "Akshar";
+    line-height: 1.2;
+    color: white;
+}
+.banner-title span{
+    font-family: "Akshar";
+    color: black;
+}
+.banner p{
+    padding: 1 rem 0 2 rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    word-spacing: 2px;
+    font-family: "Akshar";
+    color:black;
+}
+.banner form{
+    background: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-input{
+    font-family: "Tiro";
+    font-size: 1rem;
+    outline: none;
+    padding: 0.4rem 0;
+    border: none;
+}
+.search-input::placeholder{
+    text-decoration: capitalize;
+}
+.search-btn{
+    width: 40px;
+    font-size: 1.2rem;
+    color: black;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.design{
+    padding: 4.5rem 0;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: "";
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
 }
