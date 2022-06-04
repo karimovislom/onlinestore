@@ -44,6 +44,16 @@ header{
 .navbar-nav{
     padding: 0.5rem 0 0.2rem 0;
 }
+.navbar-nav i{
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+.navbar-nav i:hover{
+    opacity: .7s;
+}
 .navbar-nav a{
     color: white;
     text-transform: uppercase;
@@ -283,4 +293,38 @@ footer{
 .social-links span{
     justify-content: end;
     color: white;
+}
+.navbar-nav i{
+    display: none;
+}
+@media only screen and (max-width:800px) {
+    .navbar-nav a{
+        display: none;
+    }
+    .navbar-nav i{
+        display: block;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .design-content{
+        gap: 2rem;
+        display: grid;
+        margin: 2rem 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-content{
+        
+        margin: 2rem 0;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 100%;
+    }
+    .about-content{
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 3rem;
+        align-items: center;
+    }
 }
